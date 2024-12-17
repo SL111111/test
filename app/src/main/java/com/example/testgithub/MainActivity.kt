@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-        Log.i("TAG", "onCreate: 测试tag效果")
+        Log.i("TAG", "onCreate:123123 测试tag效果")
     }
 }
 

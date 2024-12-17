@@ -1,6 +1,7 @@
 package com.example.testgithub
 
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -27,6 +28,7 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+        Log.i("TAG", "onCreate: 测试tag效果")
     }
 }
 
